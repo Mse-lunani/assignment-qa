@@ -36,7 +36,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",  # Next.js frontend (development)
-        "https://your-vercel-app.vercel.app",  # Vercel frontend (production)
+        "https://assignment-frontend-virid.vercel.app",  # Vercel frontend (production)
         "https://*.vercel.app",  # All Vercel apps
     ],
     allow_credentials=True,
